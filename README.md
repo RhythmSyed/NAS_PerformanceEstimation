@@ -18,13 +18,13 @@ all the required steps to show a working version of the code base.
 
 ## Description of relevant files
 
-1.   latency_prediction_demo.ipynb
-    -   Jupyter notebook Demo with steps to run Dataset Creation, Model Evaluation, and OFA NAS
-    -   Lists all necessary dependencies for project
+1.   latency_prediction_demo.ipynb\
+    -   Jupyter notebook Demo with steps to run Dataset Creation, Model Evaluation, and OFA NAS\
+    -   Lists all necessary dependencies for project\
 
-2.   latency_predictor_driver.py
-    -   Provides code to create latency datasets. Uses imports from evolution_finder to random sample OFA, CompOFA
-    -   Code for inference time analysis of latency predictor and measurement
+2.   latency_predictor_driver.py\
+    -   Provides code to create latency datasets. Uses imports from evolution_finder to random sample OFA, CompOFA\
+    -   Code for inference time analysis of latency predictor and measurement\
 
 3.   latency_NAS_runner.py
     -   Similar code to demo jupyter notebook. Prepares and run code to perform NAS
