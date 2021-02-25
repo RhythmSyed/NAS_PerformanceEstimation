@@ -1,6 +1,9 @@
 # NAS_PerformanceEstimation
 Generalized Latency Performance Estimation for Once-For-All Neural Architecture Search
 
+This implementation is adopted from the source code of 
+[`Once For All (Cai et al. 2019)`](https://github.com/mit-han-lab/once-for-all) and [`CompOFA (Sahni et al. 2021)`](https://github.com/compofa-blind-review/compofa-iclr21)
+
 Description of Code Files:
 The entirety of the code base exists in tutorial/
 
