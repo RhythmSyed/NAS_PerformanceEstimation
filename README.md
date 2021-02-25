@@ -34,7 +34,7 @@ all the required steps to show a working version of the code base.
 
 5.   latency_predictor/\
     -   datasets/\
-    -   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contains all datasets created for this project, organized into device subfolders. Also includes GPU generalization datasets
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contains all datasets created for this project, organized into device subfolders. Also includes GPU generalization datasets
     -   model_results/\
         -   includes images and text files of all experimental results organized in subfolders
     
