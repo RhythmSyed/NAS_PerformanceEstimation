@@ -32,7 +32,11 @@ all the required steps to show a working version of the code base.
 4.   evolution_finder.py (modified)\
     -   this file was modified to include create_latency_dataset()
 
-5.   latency_predictor/\
+5.  checkpoints/
+    -   latency_prediction_model/\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- contains all trained latency predictors organized in subfolders of hardware and search spaces
+
+6.   latency_predictor/\
     -   datasets/\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- contains all datasets created for this project, organized into device subfolders. Also includes GPU generalization datasets
     -   model_results/\
@@ -52,7 +56,3 @@ all the required steps to show a working version of the code base.
     -   lookup_table_calculation.py\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- helper code to calculate time taken to create lookup table
     -   other images are results from various experiments
-    
-6.  checkpoints/
-    -   latency_prediction_model/\
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- contains all trained latency predictors organized in subfolders of hardware and search spaces
