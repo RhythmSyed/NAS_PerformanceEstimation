@@ -36,7 +36,7 @@ all the required steps to show a working version of the code base.
     -   latency_prediction_model/\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- contains all trained latency predictors organized in subfolders of hardware and search spaces
 
-6.   latency_predictor/\
+6.  latency_predictor/\
     -   datasets/\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- contains all datasets created for this project, organized into device subfolders. Also includes GPU generalization datasets
     -   model_results/\
