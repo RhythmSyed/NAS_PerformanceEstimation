@@ -4,7 +4,7 @@ Generalized Latency Performance Estimation for Once-For-All Neural Architecture 
 Description of Code Files:
 The entirety of the code base exists in tutorial/
 
-To test our code, we have created a jupyter_notebook (tutorial/latency_prediction_demo.ipynb) which run through
+We created a jupyter_notebook (tutorial/latency_prediction_demo.ipynb) which run through
 all the required steps to show a working version of the code base.
 
 
