@@ -43,16 +43,16 @@ all the required steps to show a working version of the code base.
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Log file from search
     -   latency_encoding.py\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- helper code to perform one hot encoding of child architectures
-    -   latency_finetune.py
+    -   latency_finetune.py\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- code for training fine tuned models, case studies, and plotting loss curves
-    -   latency_predictor.py
+    -   latency_predictor.py\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- code for creating latency predictors, data_preprocessing, training using RayTune, testing
-    -   latency_predictor_generalized.py
+    -   latency_predictor_generalized.py\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- code for creating generalized latency predictors
-    -   lookup_table_calculation.py
+    -   lookup_table_calculation.py\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- helper code to calculate time taken to create lookup table
     -   other images are results from various experiments
     
-6. checkpoints/
+6.  checkpoints/
     -   latency_prediction_model/\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- contains all trained latency predictors organized in subfolders of hardware and search spaces
