@@ -34,34 +34,25 @@ all the required steps to show a working version of the code base.
 
 5.   latency_predictor/\
     -   datasets/\
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contains all datasets created for this project, organized into device subfolders. Also includes GPU generalization datasets
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- contains all datasets created for this project, organized into device subfolders. Also includes GPU generalization datasets
     -   model_results/\
-        -   includes images and text files of all experimental results organized in subfolders
-    
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- includes images and text files of all experimental results organized in subfolders 
     -   generalized_dataset_combine.py\
-        -   helper code to add hardware parameters to datasets
-    
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- helper code to add hardware parameters to datasets    
     -   Iterations.txt\
-        -   Log file from search
-    
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Log file from search
     -   latency_encoding.py\
-        -   helper code to perform one hot encoding of child architectures
-    
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- helper code to perform one hot encoding of child architectures
     -   latency_finetune.py
-        -   code for training fine tuned models, case studies, and plotting loss curves
-    
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- code for training fine tuned models, case studies, and plotting loss curves
     -   latency_predictor.py
-        -   code for creating latency predictors, data_preprocessing, training using RayTune, testing
-    
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- code for creating latency predictors, data_preprocessing, training using RayTune, testing
     -   latency_predictor_generalized.py
-        -   code for creating generalized latency predictors
-    
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- code for creating generalized latency predictors
     -   lookup_table_calculation.py
-        -   helper code to calculate time taken to create lookup table
-    
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- helper code to calculate time taken to create lookup table
     -   other images are results from various experiments
-
-
+    
 6. checkpoints/
     -   latency_prediction_model/\
-        -   contains all trained latency predictors organized in subfolders of hardware and search spaces
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- contains all trained latency predictors organized in subfolders of hardware and search spaces
