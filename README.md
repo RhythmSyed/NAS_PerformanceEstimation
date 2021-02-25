@@ -1,4 +1,4 @@
-# LNAS_CompOFA
+# NAS_PerformanceEstimation
 Generalized Latency Performance Estimation for Once-For-All Neural Architecture Search
 
 Description of Code Files:
@@ -7,16 +7,16 @@ The entirety of the code base exists in tutorial/
 To test our code, we have created a jupyter_notebook (tutorial/latency_prediction_demo.ipynb) which run through
 all the required steps to show a working version of the code base.
 
-Setup:
 
-conda env create -f environment.yml
-conda activate latency_predict_env
-jupyter notebook
-Open tutorial/latency_prediction_demo.ipynb
-Run all
+## Setup
+1. conda env create -f environment.yml
+2. conda activate latency_predict_env
+3. jupyter notebook
+4. Open tutorial/latency_prediction_demo.ipynb
+5. Run all
 
 
-Information about all the constituent files -
+## Description of relevant files
 
 1.   latency_prediction_demo.ipynb
     -   Jupyter notebook Demo with steps to run Dataset Creation, Model Evaluation, and OFA NAS
